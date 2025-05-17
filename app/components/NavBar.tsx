@@ -44,10 +44,10 @@ export default function Navbar() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem>
+        {/* <NavbarItem>
           <ThemeSwitcher />
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
     </NextUINavbar>
-  )
+  );
 }
